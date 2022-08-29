@@ -582,7 +582,7 @@ mouse.KeyDown:Connect(function(a)
 			Aim_Assist = true
 		end
 	end
-	if a == "j" then
+	if a == "" then
 		if mouse.Target then
 			mouse.Target:Destroy()
 		end
